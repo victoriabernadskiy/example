@@ -11,10 +11,13 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: aquamarine;
-    justify-content: space-between;
+    justify-content: space-around;
+    border: 3px black;
+    margin: 5px;
+    border-radius: 15px;
 }
 .card-img {
-    width: 100%;
+    width: 80%;
 }
 .card-title {
     font-size: 2.2rem;
@@ -22,4 +25,11 @@ body {
 }
 .card-desc {
     font-size: 1.3rem;
+    margin-left: 20px;
+}
+.flex-containor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0%;
 }
