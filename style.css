@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.card {
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9 {
     width: 27vw;
     height: 55vh;
     display: flex;
@@ -17,21 +17,50 @@ body {
     border-radius: 15px;
 }
 .card-img {
-    width: 60%;
+    width: 80%;
     height: 80%;
-    margin-trim: 30px;
+    
 }
 .card-title {
     font-size: 2.2rem;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .card-desc {
     font-size: 1.3rem;
     margin-left: 20px;
+    margin-top: 10px;
 }
 .flex-containor{
     display: flex; 
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 0%;
+}
+.card2 {
+    background-color: rgba(15,26,56,255);
+}
+.card1 {
+background-color: rgba(69,47,26,255);
+}
+.card3 {
+    background-color: rgba(183,171,133,255);
+}
+.card4 {
+    background-color: rgba(153,199,199,255) ;
+}
+.card5 {
+    background-color: rgba(34,31,174,255);
+}
+.card6 {
+    background-color: rgba(185,138,68,255);
+}
+.card7 {
+    background-color: rgba(165,66,1,255);
+}
+.card8 {
+    background-color: rgba(49,49,49,255);
+}
+.card9 {
+    background-color: black;
 }
