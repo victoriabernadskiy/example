@@ -45,12 +45,17 @@ body {
     padding: 0%;
 }
 .header{
-    font-size: 3.2rem;
-    text-align: right;
-    padding: 10px;
-    border-width:3px;
+    margin-top: 20px;
+}
+h1{
+    font-size:3.2rem;
+    text-align: center;
+    padding: 5px;
     border-style:solid;
     border-color: rgb(109, 113, 64);
-    display: table;
     margin: 0 auto;
+    border-radius: 20px;   
+    border-width:3px;
+    width: fit-content;
+    height: fit-content;
 }
